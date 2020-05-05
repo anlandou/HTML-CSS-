@@ -1,0 +1,80 @@
+* Introduction to HTML 
+
+//Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+
+At its core, HTML is just a simple language that is made up of elements, and those elements are applied to pieces of text to give them different meanings in a document -- for example: Is this a paragraph? Is it a bulleted list? Is it part of a table? Etc. 
+
+Like any other document, you must structure it into logical sections: Does it have a header? A title? Three columns of content? A navigation menu? Etc. All things are considered, just like you would when writing an essay. 
+
+
+Word Bank: 
+
+Semantic ---> refers to the meaning of a piece of code 
+
+HTML: 
+
+Is not a programming language 
+Is a markup language used to tell how your browser should structure web pages 
+It consists of a series of elements
+
+
+*** tag alert! ***
+
+<em> </em> are known as italic emphasis. You know turns your text into the italic style. 
+
+<strong> </strong> strongly emphasized 
+
+*Block vs Inline elements
+
+   There are two important categories of elements in HTML: Block and Inline 
+
+Take these elements for example: 
+
+	<em>first</em><em>second</em><em>third</em>. 
+
+	<p>fourth</p><p>fifth</p><p>sixth</p>
+
+NOTICE that the first line (<em> </em>) are inline elements, meaning that they will for in the same line with no space I.e. firstsecondthird
+
+Now the second line involves the paragraph tag, which will post in ... you guessed it, new line. Everything a new paragraph tag is reached even when close together it will post on the webpage in a new line every time. 
+
+NOTE: Block and Inline should not be confused with the CSS types of boxes
+
+Empty elements: No closing tags just openings. Usually used when embedding. AKA void elements 
+
+*Attributes 
+
+Things like class, id, type, href, etc. they just provide extra information about the element that won't actually appear on the webpage 
+
+
+<a> stands for anchor 
+
+As you know anchor would create a text into a hyperlink, where users are taken to a specified webpage when clicked on. Here are the basics: 
+
+href: This attribute's value specifies the web address that you want the link to point to; where the browser navigates to when the link is clicked. For example, href="https://www.mozilla.org/".
+
+
+title: The title attribute specifies extra information about the link, such as what page is being linked to. For example, title="The Mozilla homepage". This will appear as a tooltip when the element is hovered over.//Remember hover over this and the magic happens 
+
+
+target: The target attribute specifies the browsing context that will be used to display the link. For example, target="_blank" will display the link in a new tab. If you want to display the link in the current tab, just omit this attribute.
+
+There are always quotes inside an attribute this will replace your opening and closing brackets 
+
+By simply adding disabled, this prevents users from doing anything with the element 
+These are known as boolean attributes. 
+
+Use HTML entities to use a quote within a quote 
+
+<html></html>: The <html> element. This element wraps all the content on the entire page, and is sometimes known as the root element.
+<head></head>: The <head> element. This element acts as a container for all the stuff you want to include on the HTML page, that isn't the content you are showing to your page's viewers. This includes things like keywords and a page description that you want to appear in search results, CSS to style our content, character set declarations, and more. You'll learn more about this in the next article of the series.
+
+<meta charset="utf-8">: This element specifies the character set for your document to UTF-8, which includes most characters from the vast majority of human written languages. Essentially, it can now handle any textual content you might put on it. There is no reason not to set this, and it can help avoid some problems later.
+
+<title></title>: The <title> element. This sets the title of your page, which is the title that appears in the browser tab the page is loaded in, and is used to describe the page when you bookmark/favorite it.
+
+<body></body>: The <body> element. This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.
+
+Whitespce is no biggy. Just worried about readability. 
+
+PAGE: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
